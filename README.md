@@ -11,3 +11,13 @@
 
 If you want to use extra keys in termux you can use some commands provided by the official termux website but creating a properties file with the code provided by the termux is a little bit work. I have just combined multiple commands.
 * Just Install it using the below commands
+
+```
+cd $HOME
+apt update
+apt upgrade -y
+apt install git -y
+git clone https://github.com/Punker-Bhai/key-mux
+cd key-mux
+bash mux.sh
+```
