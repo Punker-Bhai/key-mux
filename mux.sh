@@ -11,4 +11,7 @@ select yn in "Yes" "No"; do
         No ) exit;;
     esac
 done
+echo " "
+echo -e "THE KEYS MIGHT BE LOOKING BIT WEIRD"
+echo -e "SO,TRY TO EXIT AND REOPEN TERMUX"
 exit
